@@ -1,15 +1,19 @@
 package Model;
 
+import java.util.Date;
+
 public class Employee {
 	
 	private int eid;
 	private String ename;
 	private String eaddress;
 	private String ephone;
-	private int wage;
+	private int ewage;
+	private Date eDate;
 	private int egpmid;
 	private int epid;
 	
+
 	
 	
 	public Employee() {
@@ -18,26 +22,21 @@ public class Employee {
 	}
 
 
-	public Employee(int eid, String ename, String eaddress, String ephone, int wage, int egpmid, int epid) {
+
+
+	public Employee(int eid, String ename, String eaddress, String ephone, int ewage, Date eDate, int egpmid,
+			int epid) {
 		super();
 		this.eid = eid;
 		this.ename = ename;
 		this.eaddress = eaddress;
 		this.ephone = ephone;
-		this.wage = wage;
+		this.ewage = ewage;
+		this.eDate = eDate;
 		this.egpmid = egpmid;
 		this.epid = epid;
 	}
 
-
-	public int getWage() {
-		return wage;
-	}
-
-
-	public void setWage(int wage) {
-		this.wage = wage;
-	}
 
 
 
@@ -46,9 +45,13 @@ public class Employee {
 	}
 
 
+
+
 	public void setEid(int eid) {
 		this.eid = eid;
 	}
+
+
 
 
 	public String getEname() {
@@ -56,9 +59,13 @@ public class Employee {
 	}
 
 
+
+
 	public void setEname(String ename) {
 		this.ename = ename;
 	}
+
+
 
 
 	public String getEaddress() {
@@ -66,14 +73,20 @@ public class Employee {
 	}
 
 
+
+
 	public void setEaddress(String eaddress) {
 		this.eaddress = eaddress;
 	}
 
 
+
+
 	public String getEphone() {
 		return ephone;
 	}
+
+
 
 
 	public void setEphone(String ephone) {
@@ -82,9 +95,40 @@ public class Employee {
 
 
 
+
+	public int getEwage() {
+		return ewage;
+	}
+
+
+
+
+	public void setEwage(int ewage) {
+		this.ewage = ewage;
+	}
+
+
+
+
+	public Date geteDate() {
+		return eDate;
+	}
+
+
+
+
+	public void seteDate(Date eDate) {
+		this.eDate = eDate;
+	}
+
+
+
+
 	public int getEgpmid() {
 		return egpmid;
 	}
+
+
 
 
 	public void setEgpmid(int egpmid) {
@@ -92,22 +136,29 @@ public class Employee {
 	}
 
 
+
+
 	public int getEpid() {
 		return epid;
 	}
+
+
 
 
 	public void setEpid(int epid) {
 		this.epid = epid;
 	}
 
-	
+
+
 
 	@Override
 	public String toString() {
 		return "Employee [eid=" + eid + ", ename=" + ename + ", eaddress=" + eaddress + ", ephone=" + ephone
-				+ ", egpmid=" + egpmid + ", epid=" + epid + "]";
+				+ ", ewage=" + ewage + ", eDate=" + eDate + ", egpmid=" + egpmid + ", epid=" + epid + "]";
 	}
+	
+	
 	
 	
 	

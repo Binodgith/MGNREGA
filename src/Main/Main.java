@@ -19,8 +19,36 @@ public class Main {
 //		cgpm.creategpm();
 		
 		
-		ListAllGPM lg= new ListAllGPM();
-		lg.listofgpm();
+//		ListAllGPM lg= new ListAllGPM();
+//		lg.listofgpm();
+		
+//		AllocateProjectToGPM apg=new AllocateProjectToGPM();
+//		apg.allocateprojecttogpm();
+		
+		
+//		EmployeeOnProject_usecase ep=new EmployeeOnProject_usecase();
+//		ep.emplyeeonproject();
+		
+		
+//		GPMLogin_usecase gpml=new GPMLogin_usecase();
+//		gpml.gpmlogin();
+		
+		
+//		CreateEmployee_usecase cp=new CreateEmployee_usecase();
+//		cp.createemployee();
+		
+		
+//		ListOfEmployee_usecase loe=new ListOfEmployee_usecase();
+//		loe.listofemployee();
+		
+		
+//		AssignProjectToEmployee ape=new AssignProjectToEmployee();
+//		ape.assignprojectemployee();
+		
+		
+		EmployeeDayWages_usecase edw=new EmployeeDayWages_usecase();
+		edw.employeedaywage();
+		
 		
 	}
 

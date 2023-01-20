@@ -234,7 +234,7 @@ public class BDODao_impl<Empoyee> implements BDODao{
 	
 
 	@Override
-	public List<Employee> EmployeeOnProject(int pid) throws EmployeeException, ProjectException {
+	public List<Employee> EmployeeOnProject(int pid) throws EmployeeException, ProjectException,BDOException {
 		List<Employee> empList = new ArrayList<>();
 		
 		
@@ -258,11 +258,12 @@ public class BDODao_impl<Empoyee> implements BDODao{
 					int epid = rs2.getInt("epid");
 					String ename = rs2.getString("ename");
 					String eaddress = rs2.getString("eaddress");
-					Date edate = rs2.getDate("edate_joined");
+					String ephone=rs2.getString("ephone");
+					Date edate = rs2.getDate("edate");
 					int ewage = rs2.getInt("ewage");
 					
 					
-					Employee e = new Employee(eid, egpid, epid, name, address, date, wage);
+					Employee e = new Employee(eid, ename, eaddress, ephone, ewage, edate, egpmid,epid);
 					empList.add(e);
 		
 				}
@@ -276,7 +277,7 @@ public class BDODao_impl<Empoyee> implements BDODao{
 		}
 		
 		if(empList.size() ==0) {
-			throw new EmployeeException("Exception : No Employee Found in the given PID : ." + pid);
+			throw new EmployeeException("Exception : No Employee Found in the given PID : " + pid);
 		}
 			
 		return empList;
