@@ -25,6 +25,6 @@ public interface BDODao {
 	
 	public String AllocateProjectToGPM(int pid,int gpmid) throws ProjectException, GPMException, BDOException;
 	
-	public List<Employee> EmployeeOnProject(int pid) throws EmployeeException,ProjectException;
+	public List<Employee> EmployeeOnProject(int pid) throws EmployeeException,ProjectException, BDOException;
 
 }
