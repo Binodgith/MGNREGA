@@ -16,7 +16,7 @@ public class AllocateProjectToGPM {
 	public static void  allocateprojecttogpm() {
 		
 		Scanner input=new Scanner(System.in);
-		System.out.println("----------Assign Project to Gram panchayat member.---------");
+		System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"          Assign Project to Gram panchayat member         "+ConsoleColors.RESET);
 		
 		System.out.println("Enter Project ID :");
 		int pid=input.nextInt();

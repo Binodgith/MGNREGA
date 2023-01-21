@@ -25,7 +25,7 @@ public class BDODao_impl<Empoyee> implements BDODao{
 		
 		String message="Invalid Phone & Password";
 		
-		if(phone.equals("9114167352") && password.equals("BDO_91141")) {
+		if(phone.equals("9114167352") && password.equals("BDO@91141")) {
 			message="Login Successfull ! Welcome to BDO Dashboard ";
 		}
 		else {

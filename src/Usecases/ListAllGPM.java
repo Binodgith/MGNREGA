@@ -15,14 +15,15 @@ public class ListAllGPM {
 		try {
 			List<GPM> gpmList = dao.ListOfGPM();
 			
-			
-			System.out.println("------------" + ConsoleColors.TEAL_BACKGROUND+ConsoleColors.WHITE_BRIGHT +"Table of all Gram Panchayat Member Present" + ConsoleColors.RESET+ "---------------");
-			
-			System.out.println(ConsoleColors.TEAL+"======================================================================"+ConsoleColors.RESET);
-			
-			System.out.printf("%7s %12s %16s %12.5s %19s",ConsoleColors.TEAL + "GPID", "NAME", "ADDRESS", "PHONE", "PASSWORD" + ConsoleColors.RESET);
 			System.out.println();
-			System.out.print(ConsoleColors.TEAL+"====================================================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all Gram Panchayat Member Present             "+ConsoleColors.RESET);
+
+			
+//			System.out.println(ConsoleColors.TEAL+"======================================================================"+ConsoleColors.RESET);
+			
+			System.out.printf("%7s %12s %16s %12.5s %19s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT + "GPID", "NAME", "ADDRESS", "PHONE", "PASSWORD" + ConsoleColors.RESET);
+			System.out.println();
+//			System.out.print(ConsoleColors.TEAL+"====================================================================="+ConsoleColors.RESET);
 			
 			System.out.println();
 			for(GPM g : gpmList) {
@@ -31,7 +32,9 @@ public class ListAllGPM {
 				System.out.println();
 			}
 			
-			System.out.println(ConsoleColors.TEAL+"=========================================================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.BROWN_BACKGROUND+"--------------------------------------------------------------"+ConsoleColors.RESET);
+
+			
 		} catch (GPMException e) {
 			System.out.println(ConsoleColors.RED_BACKGROUND + ConsoleColors.WHITE_BOLD_BRIGHT + e.getMessage() + ConsoleColors.RESET);
 		}
