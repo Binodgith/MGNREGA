@@ -1,7 +1,7 @@
 # MGNREGA
 
 <p align="center">
-  <img width="90%" height="400" src="https://github.com/Binodgith/MGNREGA/blob/main/Materials./download2.jpg?raw=true">
+  <img width="80%" src="https://github.com/Binodgith/MGNREGA/blob/main/Materials./download2.jpg?raw=true">
 </p
 
 
