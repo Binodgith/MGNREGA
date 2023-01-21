@@ -14,7 +14,8 @@ public class CreateProject_usecase {
 		Scanner sc = new Scanner(System.in);
 		
 		try {
-			
+			System.out.println();
+			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"          Create a new Project          "+ConsoleColors.RESET);
 			
 			System.out.println("Enter Project Name : ");
 			String name = sc.nextLine();

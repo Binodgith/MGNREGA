@@ -10,20 +10,22 @@ import Style.ConsoleColors;
 public class EmployeeDayWages_usecase {
 	
 	public static void employeedaywage() {
+		
+		
 
 		GPMDao dao = new GPMDao_impl();
 		
 		try {
 			List<Employee_total> empWage =  dao.EmployeeDayWages();
 			
+			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all the Employee, Wage, days, Total Amount             "+ConsoleColors.RESET);
+
 			
-			System.out.println("---------------------------------" + ConsoleColors.PURPLE_BACKGROUND+ConsoleColors.YELLOW_BOLD_BRIGHT +"Table of all the Employee, Wage, days, Total Amount" + ConsoleColors.RESET+ "-------------------------------------");
+//			System.out.println(ConsoleColors.BROWN+"==========================================================================================================================");
 			
-			System.out.println("-------------------------------------------------------------------------------------------------------------------------");
-			
-			System.out.printf("%7s %10s %11s %17s %22s %17s %13s %21s",ConsoleColors.BLACK_BOLD + "EID", "ENAME", "PID", "PNAME", "DATE_JOINED", "TOTAL DAYS", "WAGE/DAY", "TOTAL_AMOUNT" + ConsoleColors.RESET);
+			System.out.printf("%7s %10s %11s %17s %22s %17s %13s %21s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT + "EID", "ENAME", "PID", "PNAME", "DATE_JOINED", "TOTAL DAYS", "WAGE/DAY", "TOTAL_AMOUNT" + ConsoleColors.RESET);
 			System.out.println();
-			System.out.print("-------------------------------------------------------------------------------------------------------------------------");
+//			System.out.print(ConsoleColors.BROWN+"============================================================================================================================"+ConsoleColors.RESET);
 			
 			System.out.println();
 			for(Employee_total e : empWage) {
@@ -32,7 +34,8 @@ public class EmployeeDayWages_usecase {
 				System.out.println();
 			}
 			
-			System.out.println("------------------------------------------------------------------------------------------------------------------------");
+//			System.out.println(ConsoleColors.BROWN+"=========================================================================================================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.BROWN_BACKGROUND+"--------------------------------------------------------------------------------------------------------------------------"+ConsoleColors.RESET);
 			
 			
 			

@@ -14,8 +14,8 @@ public class CreateEmployee_usecase {
 		Scanner sc = new Scanner(System.in);
 		
 		try {
-			
-			
+			System.out.println();
+			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"          Add a new Employee          "+ConsoleColors.RESET);
 			System.out.println("Enter Employee Name : ");
 			String name = sc.nextLine();
 			

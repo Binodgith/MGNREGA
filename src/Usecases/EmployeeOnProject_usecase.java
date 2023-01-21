@@ -23,23 +23,24 @@ public class EmployeeOnProject_usecase {
 		
 		try {
 			List<Employee> emp =  dao.EmployeeOnProject(pid);
-			
-			System.out.println("--" + ConsoleColors.TEAL_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT +"Table of all the Employee Present in the Project ID : " +pid + ConsoleColors.RESET+ "----");
-			
-			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
-			
-			System.out.printf("%17s %10.5s %19s",ConsoleColors.TEAL + "EID","NAME","WAGE/DAY"  +ConsoleColors.RESET);
 			System.out.println();
-			System.out.print(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all the Employee Present in the Project ID :             "+ConsoleColors.RESET);
+			
+//			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
+			
+			System.out.printf("%17s %10.5s %19s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT+ "EID","NAME","WAGE/DAY"  +ConsoleColors.RESET);
+			System.out.println();
+//			System.out.print(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
 			
 			System.out.println();
 			for(Employee e : emp) {
 				
-				System.out.format("%9.2s %13s %10s",e.getEid(),e.getEname(),e.getEwage());
+				System.out.format("%3s %13s %10s",e.getEid(),e.getEname(),e.getEwage());
 				System.out.println();
 			}
 			
-			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
+//			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.BROWN_BACKGROUND+"----------------------------------"+ConsoleColors.RESET);
 			
 			
 			

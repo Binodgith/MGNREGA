@@ -12,7 +12,8 @@ public class BDOLogin_usecase {
 	public static boolean bdologin()
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Phone : ");
+		System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"          Login as BDO          "+ConsoleColors.RESET);
+		System.out.println("Enter Registered Phone number: ");
 		String phone = sc.next();
 		
 		System.out.println("Enter Password : ");
