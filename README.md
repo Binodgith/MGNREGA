@@ -27,7 +27,7 @@
 >Built application within four days.
 
 
-## 👉 ⎚ [Click here]() to Watch detail explaned Video of this application.
+## 👉 ⎚ [Click here](https://drive.google.com/file/d/1oppZ82OmQeRCUgWXpXZeu1yPg_TVWUXb/view?usp=share_link) to Watch detail explaned Video of this application.
 
 
 
