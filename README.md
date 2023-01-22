@@ -1,7 +1,7 @@
 # MGNREGA
 
 <p align="center">
-  <img width="80%" src="https://github.com/Binodgith/MGNREGA/blob/main/Materials./download2.jpg?raw=true">
+  <img width="80%" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/download2.jpg">
 </p
 
 
@@ -47,13 +47,13 @@
 # Overview of My work 
 ## ER Diagram
 <p align="center">
-  <img width="800"  src="https://github.com/Binodgith/MGNREGA/blob/main/Materials./ER%20Diagram.jpg?raw=true">
+  <img width="800"  src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/ER%20Diagram.jpg">
 </p>
 
 
 ## Flow Chart
 <p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials./Flow%20Chart.jpg">
+  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/Flow%20Chart.jpg">
 </p>
 
 
