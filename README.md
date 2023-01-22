@@ -58,6 +58,18 @@
 
 
 
+# Screenshots of application 
+
+## Loged in as BDO
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/BDO%20Login.jpg">
+</p>
+
+## Logged in as GPM
+<p align="center">
+  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/GPM%20Login.jpg">
+</p>
+
 
 
 # Used Tech stacks and Tools 
