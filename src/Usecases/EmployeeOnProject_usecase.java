@@ -26,7 +26,7 @@ public class EmployeeOnProject_usecase {
 			System.out.println();
 			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all the Employee Present in the Project ID :             "+ConsoleColors.RESET);
 			
-//			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
 			
 			System.out.printf("%17s %10.5s %19s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT+ "EID","NAME","WAGE/DAY"  +ConsoleColors.RESET);
 			System.out.println();

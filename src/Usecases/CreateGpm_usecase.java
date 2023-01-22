@@ -30,9 +30,9 @@ public class CreateGpm_usecase {
 			System.out.println("Enter Gram Panchayat Member Password : ");
 			
 			System.out.println(ConsoleColors.YELLOW_ITALIC+"(Password must contain 8 characters and should have atleast 1 Upper Case, 1 Small Case, 1 Number and 1 Special Character)"+ ConsoleColors.RESET);
-			boolean flag = true;
+			boolean flag = false;
 			String password = null;
-			while(flag) {
+			while(!flag) {
 				password = sc.nextLine();
 				flag = password.matches("^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$");
 				

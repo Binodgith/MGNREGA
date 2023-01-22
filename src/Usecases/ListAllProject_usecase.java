@@ -20,7 +20,7 @@ public class ListAllProject_usecase {
 			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all Projects             "+ConsoleColors.RESET);
 
 			
-//			System.out.println(ConsoleColors.TEAL+"========================================================================="+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.TEAL+"=============================================="+ConsoleColors.RESET);
 			
 			System.out.printf("%7s %7.5s %16s %15s %17s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT  + "PID", "GPMID", "NAME", "COST", "DURATION" + ConsoleColors.RESET);
 			System.out.println();

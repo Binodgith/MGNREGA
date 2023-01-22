@@ -18,7 +18,7 @@ public class ListOfEmployee_usecase {
 			System.out.println();
 			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all the Employee Present             "+ConsoleColors.RESET);
 			
-//			System.out.println("---------------------------------------------------------------------------------");
+			System.out.println("---------------------------------------------------------------------------------");
 			
 			System.out.printf("%7s %7.5s %8.5s %10s %15s %17s %16s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT  + "EID", "EGPMID","EPID", "NAME", "ADDRESS", "DATE JOINED", "WAGE/DAY" + ConsoleColors.RESET);
 			System.out.println();

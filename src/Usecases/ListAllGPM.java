@@ -19,7 +19,7 @@ public class ListAllGPM {
 			System.out.println(ConsoleColors.BOXING+ConsoleColors.BROWN_BACKGROUND+"              Table of all Gram Panchayat Member Present             "+ConsoleColors.RESET);
 
 			
-//			System.out.println(ConsoleColors.TEAL+"======================================================================"+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.TEAL+"======================================================================"+ConsoleColors.RESET);
 			
 			System.out.printf("%7s %12s %16s %12.5s %19s",ConsoleColors.BROWN_BACKGROUND+ConsoleColors.WHITE_BOLD_BRIGHT + "GPID", "NAME", "ADDRESS", "PHONE", "PASSWORD" + ConsoleColors.RESET);
 			System.out.println();
